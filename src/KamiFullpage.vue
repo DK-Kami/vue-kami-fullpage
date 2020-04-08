@@ -20,7 +20,7 @@
 import { TweenLite } from "gsap";
 
 export default {
-  name: "KamiFullpage",
+  name: "VueKamiFullpage",
 
   props: {
     kamiOptions: {

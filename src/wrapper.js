@@ -4,6 +4,8 @@ const plugin = {
   installed: false,
 
   install(Vue, { name }) {
+    console.log('name', KamiFullpage.name);
+
     if (this.installed) return;
     this.installed = true;
 
