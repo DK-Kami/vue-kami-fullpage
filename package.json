@@ -1,5 +1,5 @@
 {
-  "name": "kami-fullpage",
+  "name": "vue-kami-fullpage",
   "version": "1.2.8",
   "description": "Vue.js component for fullpage scrolling on the site",
   "keywords": [
@@ -12,20 +12,20 @@
     "url": "https://github.com/KamiMeow",
     "name": "Kami-san"
   },
-  "homepage": "https://github.com/KamiMeow/kami-fullpage#readme",
+  "homepage": "https://github.com/KamiMeow/vue-kami-fullpage#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KamiMeow/kami-fullpage.git"
+    "url": "git+https://github.com/KamiMeow/vue-kami-fullpage.git"
   },
   "bugs": {
-    "url": "https://github.com/KamiMeow/kami-fullpage/issues"
+    "url": "https://github.com/KamiMeow/vue-kami-fullpage/issues"
   },
   "license": "MIT",
-  "main": "dist/kami-fullpage.umd.js",
-  "unpkg": "dist/kami-fullpage.min.js",
-  "module": "dist/kami-fullpage.esm.js",
+  "main": "dist/vue-kami-fullpage.umd.js",
+  "unpkg": "dist/vue-kami-fullpage.min.js",
+  "module": "dist/vue-kami-fullpage.esm.js",
   "browser": {
-    "./sfc": "src/kami-fullpage.vue"
+    "./sfc": "src/vue-kami-fullpage.vue"
   },
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
