@@ -1,4 +1,4 @@
-import KamiFullpage from 'KamiFullpage';
+import KamiFullpage from './KamiFullpage.vue';
 
 const plugin = {
   installed: false,
