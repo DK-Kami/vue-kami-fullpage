@@ -6,6 +6,8 @@ var plugin = {
   install: function install(Vue, ref) {
     var name = ref.name;
 
+    console.log('name', KamiFullpage.name);
+
     if (this.installed) { return; }
     this.installed = true;
 
