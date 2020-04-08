@@ -29,9 +29,9 @@
   },
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/my-component.esm.js",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/my-component.umd.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/my-component.min.js"
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-kami-fullpage.esm.js",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-kami-fullpage.umd.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-kami-fullpage.min.js"
   },
   "dependencies": {
     "gsap": "^3.2.6",
